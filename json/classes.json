@@ -3,7 +3,6 @@
     "key": "assassin",
     "name": "Assassin",
     "description": "Assassins leap to the farthest enemy at the start of combat and deal additional Critical Strike Damage.",
-    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Katarina_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 3,
@@ -19,7 +18,6 @@
     "key": "blademaster",
     "name": "Blademaster",
     "description": "Blademasters have a 35% chance to strike additional times each attack.",
-    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Fiora_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 3,
@@ -35,7 +33,6 @@
     "key": "brawler",
     "name": "Brawler",
     "description": "Brawlers receive bonus maximum health.",
-    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Warwick_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 2,
@@ -51,7 +48,6 @@
     "key": "elementalist",
     "name": "Elementalist",
     "description": "Elementalists gain double mana from attacks.",
-    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Brand_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 3,
@@ -63,7 +59,6 @@
     "key": "guardian",
     "name": "Guardian",
     "description": null,
-    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Braum_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 2,
@@ -75,7 +70,6 @@
     "key": "gunslinger",
     "name": "Gunslinger",
     "description": "After attacking, Gunslingers have a 50% chance to fire additional attacks.",
-    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/MissFortune_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 2,
@@ -91,7 +85,6 @@
     "key": "knight",
     "name": "Knight",
     "description": "Knights block damage from basic attacks.",
-    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Kayle_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 2,
@@ -111,7 +104,6 @@
     "key": "ranger",
     "name": "Ranger",
     "description": "Rangers have a chance to double their attack speed for the next 3s.",
-    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Kindred_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 2,
@@ -127,7 +119,6 @@
     "key": "shapeshifter",
     "name": "Shapeshifter",
     "description": "Shapeshifters gain bonus maximum Health when they transform.",
-    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Elise_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 3,
@@ -139,7 +130,6 @@
     "key": "sorcerer",
     "name": "Sorcerer",
     "description": "Sorcerers gain double mana from attacking and allies have increased spell damage.",
-    "accentChampionImage": "https://cdn.blitz.gg/blitz/centered/Karthus_Splash_Centered_0.jpg",
     "bonuses": [
       {
         "needed": 3,
