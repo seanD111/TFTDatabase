@@ -12,13 +12,15 @@
       "type": "Active",
       "manaCost": 75,
       "manaStart": 0,
-      "stats": [{ "type": "Damage", "value": "400 / 700 / 1000" }]
+      "stats": [{ 
+        "type": "Damage", 
+        "value": [400,  700,  1000] 
+      }]
     },
     "stats": {
       "offense": {
         "damage": 65,
         "attackSpeed": 0.65,
-        "dps": 42,
         "range": 1
       },
       "defense": {
@@ -41,13 +43,15 @@
       "type": "Active",
       "manaCost": 75,
       "manaStart": 0,
-      "stats": [{ "type": "Damage", "value": "100 / 200 / 300" }]
+      "stats": [{ 
+        "type": "Damage", 
+        "value": [100, 200, 300] 
+      }]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.55,
-        "dps": 28,
         "range": 3
       },
       "defense": {
@@ -70,13 +74,15 @@
       "type": "Active",
       "manaCost": 25,
       "manaStart": 0,
-      "stats": [{ "type": "Damage", "value": "200 / 375 / 550" }]
+      "stats": [{ 
+        "type": "Damage", 
+        "value": [200, 375, 550] 
+      }]
     },
     "stats": {
       "offense": {
         "damage": 70,
         "attackSpeed": 0.7,
-        "dps": 53,
         "range": 1
       },
       "defense": {
@@ -100,16 +106,15 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "700 / 950 / 1200" },
-        { "type": "Attack Speed Slow", "value": "50 / 70 / 90" },
-        { "type": "Storm Duration", "value": "8s" }
+        { "type": "Damage", "value": [700,  950,  1200] },
+        { "type": "Attack Speed Slow", "value": [50,  70,  90] },
+        { "type": "Storm Duration (s)", "value": 8}
       ]
     },
     "stats": {
       "offense": {
         "damage": 40,
         "attackSpeed": 0.6,
-        "dps": 24,
         "range": 3
       },
       "defense": {
@@ -133,15 +138,14 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-          { "type": "Damage", "value": "700 / 950 / 1200" },
-          { "type": "Stun Duration (per hex traveled)", "value": "1s / 1.5s / 2s" }
+          { "type": "Damage", "value": [700,  950,  1200] },
+          { "type": "Stun Duration (s per hex traveled)", "value": [1,  1.5,  2] }
         ]
     },
     "stats": {
       "offense": {
         "damage": 60,
         "attackSpeed": 0.7,
-        "dps": 42,
         "range": 4
       },
       "defense": {
@@ -165,15 +169,14 @@
       "manaCost": 125,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "250 / 450 / 650" },
-        { "type": "Channel Duration", "value": "0.35s" }
+        { "type": "Damage", "value": [250,  450,  650] },
+        { "type": "Channel Duration", "value": 0.35 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 40,
         "attackSpeed": 0.6,
-        "dps": 24,
         "range": 3
       },
       "defense": {
@@ -197,15 +200,14 @@
       "manaCost": 150,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "100 / 350 / 800" },
-        { "type": "Stun Duration", "value": "2.5s" }
+        { "type": "Damage", "value": [100,  350,  800] },
+        { "type": "Stun Duration", "value": [2.5] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.5,
-        "dps": 25,
         "range": 1
       },
       "defense": {
@@ -229,15 +231,14 @@
       "manaCost": 125,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "200 / 300 / 400" },
-        { "type": "Bounces", "value": "4 / 4 / 6" }
+        { "type": "Damage", "value": [200, 300, 400] },
+        { "type": "Bounces", "value": [4, 4, 6] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 60,
         "attackSpeed": 0.6,
-        "dps": 36,
         "range": 3
       },
       "defense": {
@@ -261,15 +262,14 @@
       "manaCost": 50,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage Reduction", "value": "70% / 80% / 90%" },
-        { "type": "Duration", "value": "4s" }
+        { "type": "Damage Reduction %", "value": [70, 80, 90] },
+        { "type": "Duration", "value": 4 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 40,
         "attackSpeed": 0.6,
-        "dps": 24,
         "range": 1
       },
       "defense": {
@@ -293,17 +293,16 @@
       "manaCost": 150,
       "manaStart": 50,
       "stats": [
-        { "type": "Damage", "value": "200 / 400 / 600" },
-        { "type": "Knockup Duration", "value": "1.5s / 2s / 2.5s" },
-        { "type": "AoE Radius", "value": "3 hexes" },
-        { "type": "Delay", "value": "1.5s" }
+        { "type": "Damage", "value": [200,  400,  600] },
+        { "type": "Knockup Duration (s)", "value": [1.5,  2,  2.5] },
+        { "type": "AoE Radius (hexes)", "value": 3 },
+        { "type": "Delay (s)", "value": 1.5 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 70,
         "attackSpeed": 0.55,
-        "dps": 39,
         "range": 1
       },
       "defense": {
@@ -327,16 +326,15 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "150 / 225 / 300" },
-        { "type": "Heal", "value": "100 / 150 / 200" },
-        { "type": "Delay", "value": "1.5" }
+        { "type": "Damage", "value": [150, 225, 300] },
+        { "type": "Heal", "value": [100, 150, 200] },
+        { "type": "Delay (s)", "value": 1.5 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.5,
-        "dps": 25,
         "range": 1
       },
       "defense": {
@@ -360,15 +358,14 @@
       "manaCost": null,
       "manaStart": null,
       "stats": [
-        { "type": "Buff Duration", "value": "8s" },
-        { "type": "Attack Damage Multiplier", "value": "150% / 200% / 250%" }
+        { "type": "Buff Duration (s)", "value": 8 },
+        { "type": "Attack Damage Multiplier (%)", "value": [150, 200, 250] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 75,
         "attackSpeed": 0.75,
-        "dps": 49,
         "range": 3
       },
       "defense": {
@@ -392,16 +389,15 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Life Steal", "value": "60% / 90% / 120%" },
-        { "type": "Number of Spiderlings", "value": "1 / 2 / 4" },
-        { "type": "Spiderling Health", "value": "500" }
+        { "type": "Life Steal", "value": [60,  90,  120] },
+        { "type": "Number of Spiderlings", "value": [1,  2,  4] },
+        { "type": "Spiderling Health", "value": 500 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 40,
         "attackSpeed": 0.6,
-        "dps": 40,
         "range": 2
       },
       "defense": {
@@ -425,17 +421,16 @@
       "manaCost": 75,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "200 / 250 / 300" },
-        { "type": "Crit Multiplier", "value": "3x / 5x / 7x" },
-        { "type": "Crit Threshold", "value": "65% HP" },
-        { "type": "Blink Distance", "value": "3" }
+        { "type": "Damage", "value": [200, 250, 300] },
+        { "type": "Crit Multiplier", "value": [3, 5, 7] },
+        { "type": "Crit Threshold (%HP)", "value": 65},
+        { "type": "Blink Distance", "value": 3 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 60,
         "attackSpeed": 0.6,
-        "dps": 50,
         "range": 1
       },
       "defense": {
@@ -459,16 +454,15 @@
       "manaCost": 75,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "100 / 250 / 400" },
-        { "type": "Stun Duration", "value": "1.5s" },
-        { "type": "Block Duration", "value": "1.5s" }
+        { "type": "Damage", "value": [100,  250,  400] },
+        { "type": "Stun Duration (s)", "value": 1.5 },
+        { "type": "Block Duration (s)", "value": 1.5 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 40,
         "attackSpeed": 1,
-        "dps": 28,
         "range": 1
       },
       "defense": {
@@ -491,13 +485,12 @@
       "type": "Passive",
       "manaCost": 100,
       "manaStart": 0,
-      "stats": [{ "type": "Damage", "value": "200 / 325 / 450" }]
+      "stats": [{ "type": "Damage", "value": [200,  325,  450] }]
     },
     "stats": {
       "offense": {
         "damage": 55,
         "attackSpeed": 0.65,
-        "dps": 33,
         "range": 1
       },
       "defense": {
@@ -521,17 +514,16 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Total Damage", "value": "450 / 585 / 720" },
-        { "type": "Damage per Tick", "value": "50 / 65 / 80" },
-        { "type": "Total Ticks", "value": "9" },
-        { "type": "Spin Duration", "value": "4s" }
+        { "type": "Total Damage", "value": [450,  585,  720] },
+        { "type": "Damage per Tick", "value": [50,  65,  80] },
+        { "type": "Total Ticks", "value": 9 },
+        { "type": "Spin Duration (s)", "value": 4 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 55,
         "attackSpeed": 0.55,
-        "dps": 30,
         "range": 1
       },
       "defense": {
@@ -555,19 +547,18 @@
       "manaCost": 125,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "200 / 300 / 400" },
-        { "type": "CC Duration", "value": "2s" },
-        { "type": "Knockback Distance", "value": "2 hexes" },
-        { "type": "Transform Duration", "value": "60s" },
-        { "type": "Transform HP", "value": "300 / 600 / 900" },
-        { "type": "Transform Damage", "value": "30 / 60 / 90" }
+        { "type": "Damage", "value": [200,  300,  400] },
+        { "type": "CC Duration", "value": 2 },
+        { "type": "Knockback Distance (hexes)", "value": 2 },
+        { "type": "Transform Duration (s)", "value": 60},
+        { "type": "Transform HP", "value": [300,  600,  900] },
+        { "type": "Transform Damage", "value": [30,  60,  90] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 45,
         "attackSpeed": 0.7,
-        "dps": 31,
         "range": 2
       },
       "defense": {
@@ -590,13 +581,12 @@
       "type": "Passive",
       "manaCost": null,
       "manaStart": null,
-      "stats": [{ "type": "Damage Multiplier", "value": "0.1 / 0.2 / 0.3" }]
+      "stats": [{ "type": "Damage Multiplier (%)", "value": [0.05,  0.1,  0.15] }]
     },
     "stats": {
       "offense": {
         "damage": 55,
         "attackSpeed": 0.5,
-        "dps": 28,
         "range": 1
       },
       "defense": {
@@ -620,15 +610,14 @@
       "manaCost": 85,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "350 / 600 / 850" },
-        { "type": "Targets", "value": "4 / 7 / 10" }
+        { "type": "Damage", "value": [350, 600, 850] },
+        { "type": "Targets", "value": [4, 7, 10] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 65,
         "attackSpeed": 0.65,
-        "dps": 42,
         "range": 3
       },
       "defense": {
@@ -652,15 +641,14 @@
       "manaCost": null,
       "manaStart": null,
       "stats": [
-        { "type": "Shield Duration", "value": "4s" },
-        { "type": "Mana Steal", "value": "20 / 40 / 60" }
+        { "type": "Shield Duration (s)", "value": 4 },
+        { "type": "Mana Steal", "value": [20, 40, 60] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 45,
         "attackSpeed": 0.65,
-        "dps": 29,
         "range": 1
       },
       "defense": {
@@ -684,17 +672,16 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "600 / 900 / 1200" },
-        { "type": "Channel Duration", "value": "2.5s" },
-        { "type": "Grievous Wounds Duration", "value": "3s" },
-        { "type": "Targets", "value": "3 / 5 / 7" }
+        { "type": "Damage", "value": [600, 900, 1200] },
+        { "type": "Channel Duration (s)", "value": 2.5 },
+        { "type": "Grievous Wounds Duration (s)", "value": 3 },
+        { "type": "Targets", "value": [3, 5, 7] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.6,
-        "dps": 30,
         "range": 1
       },
       "defense": {
@@ -718,16 +705,15 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "500 / 800 / 1100" },
-        { "type": "Shield Duration", "value": "2s / 3s / 4s" },
-        { "type": "Extra Targets", "value": "0 / 1 / 2" }
+        { "type": "Damage", "value": [500, 800, 1100] },
+        { "type": "Shield Duration (s)", "value": [2, 3, 4] },
+        { "type": "Extra Targets", "value": [0, 1, 2] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 60,
         "attackSpeed": 1.1,
-        "dps": 66,
         "range": 3
       },
       "defense": {
@@ -751,7 +737,7 @@
       "manaCost": 150,
       "manaStart": 50,
       "stats": [
-        { "type": "Damage", "value": "400 / 650 / 900" },
+        { "type": "Damage", "value": [400, 650, 900] },
         { "type": "Stun Duration", "value": "1.5s" }
       ]
     },
@@ -759,7 +745,6 @@
       "offense": {
         "damage": 65,
         "attackSpeed": 0.65,
-        "dps": 36,
         "range": 2
       },
       "defense": {
@@ -783,15 +768,14 @@
       "manaCost": 50,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "150 / 250 / 350" },
-        { "type": "Isolation Damage", "value": "400 / 600 / 800" }
+        { "type": "Damage", "value": [150, 250, 350] },
+        { "type": "Isolation Damage", "value": [400, 600, 800] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.6,
-        "dps": 30,
         "range": 1
       },
       "defense": {
@@ -815,15 +799,14 @@
       "manaCost": 150,
       "manaStart": 50,
       "stats": [
-        { "type": "Duration", "value": "4s / 5s / 6s" },
-        { "type": "Minimum HP", "value": "300 / 600 / 900" }
+        { "type": "Duration (s)", "value": [4, 5, 6] },
+        { "type": "Minimum HP", "value": [300, 600, 900] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 55,
         "attackSpeed": 0.65,
-        "dps": 36,
         "range": 3
       },
       "defense": {
@@ -847,16 +830,15 @@
       "manaCost": 100,
       "manaStart": 50,
       "stats": [
-        { "type": "Damage", "value": "175 / 250 / 325" },
-        { "type": "Stun Duration", "value": "5s / 8s / 11s" },
-        { "type": "Stun Delay", "value": "0.625s" }
+        { "type": "Damage", "value": [175, 250, 325] },
+        { "type": "Stun Duration (s)", "value": [5, 8, 11] },
+        { "type": "Stun Delay (s)", "value": 0.625 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 45,
         "attackSpeed": 0.55,
-        "dps": 25,
         "range": 1
       },
       "defense": {
@@ -880,18 +862,17 @@
       "manaCost": 150,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "225 / 300 / 375" },
-        { "type": "Enemy Stun Duration", "value": "1.5s" },
-        { "type": "Untargetable Duration", "value": "2s" },
-        { "type": "Slow Duration", "value": "3s" },
-        { "type": "Slow Field Duration", "value": "3s" }
+        { "type": "Damage", "value": [225, 300, 375] },
+        { "type": "Enemy Stun Duration (s)", "value": 1.5 },
+        { "type": "Untargetable Duration (s)", "value": 2 },
+        { "type": "Slow Duration (s)", "value": 3 },
+        { "type": "Slow Field Duration (s)", "value": 3 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 40,
         "attackSpeed": 0.6,
-        "dps": 24,
         "range": 3
       },
       "defense": {
@@ -915,14 +896,13 @@
       "manaCost": 35,
       "manaStart": 0,
       "stats": [
-        { "type": "Second Shot Damage", "value": "150 / 250 / 350" }
+        { "type": "Second Shot Damage", "value": [150, 250, 350] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 65,
         "attackSpeed": 0.65,
-        "dps": 42,
         "range": 3
       },
       "defense": {
@@ -946,17 +926,16 @@
       "manaCost": 150,
       "manaStart": 0,
       "stats": [
-        { "type": "Bonus HP", "value": "300 / 475 / 650" },
-        { "type": "Extra Targets", "value": "0 / 1 / 2" },
-        { "type": "Duration", "value": "6s" },
-        { "type": "Knockup Duration", "value": "1.25s" }
+        { "type": "Bonus HP", "value": [300, 475, 650] },
+        { "type": "Extra Targets", "value": [0, 1, 2] },
+        { "type": "Duration (s)", "value": 6 },
+        { "type": "Knockup Duration (s)", "value": 1.25 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.6,
-        "dps": 30,
         "range": 2
       },
       "defense": {
@@ -980,15 +959,14 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Channel Duration", "value": "3s" },
-        { "type": "Total Damage", "value": "800 / 1250 / 1700" }
+        { "type": "Channel Duration (s)", "value": 3 },
+        { "type": "Total Damage", "value": [800, 1250, 1700] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 75,
         "attackSpeed": 0.85,
-        "dps": 64,
         "range": 3
       },
       "defense": {
@@ -1012,8 +990,8 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "150 / 250 / 350" },
-        { "type": "Start Distance", "value": "2" },
+        { "type": "Damage", "value": [150, 250, 350] },
+        { "type": "Start Distance", "value": 2 },
         { "type": "Length", "value": 3 }
       ]
     },
@@ -1021,7 +999,6 @@
       "offense": {
         "damage": 50,
         "attackSpeed": 0.5,
-        "dps": 25,
         "range": 1
       },
       "defense": {
@@ -1045,16 +1022,15 @@
       "manaCost": 150,
       "manaStart": 50,
       "stats": [
-        { "type": "Damage", "value": "300 / 375 / 450" },
-        { "type": "Chain Duration", "value": "3s" },
-        { "type": "Stun Duration", "value": "2s / 4s / 6s" }
+        { "type": "Damage", "value": [300, 375, 450] },
+        { "type": "Chain Duration (s)", "value": 3 },
+        { "type": "Stun Duration (s)", "value": [2, 4, 6] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.6,
-        "dps": 30,
         "range": 2
       },
       "defense": {
@@ -1078,16 +1054,15 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "HoT total heal", "value": "150 / 225 / 600" },
-        { "type": "HoT Duration", "value": "6s" },
-        { "type": "Transform Damage", "value": "20 / 65 / 120" }
+        { "type": "HoT total heal", "value": [150, 225, 600] },
+        { "type": "HoT Duration (s)", "value": 6 },
+        { "type": "Transform Damage", "value": [20, 65, 120] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.65,
-        "dps": 33,
         "range": 3
       },
       "defense": {
@@ -1111,17 +1086,16 @@
       "manaCost": 75,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "300 / 500 / 700" },
+        { "type": "Damage", "value": [300, 500, 700] },
         { "type": "Knockup Duration", "value": "1s" },
-        { "type": "Stun Duration", "value": "2s / 3s / 4s" },
-        { "type": "Number of Targets Hit", "value": "1 / 2 / 3" }
+        { "type": "Stun Duration (s)", "value": [2, 3, 4] },
+        { "type": "Number of Targets Hit", "value": [1, 2, 3] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.5,
-        "dps": 25,
         "range": 1
       },
       "defense": {
@@ -1145,16 +1119,15 @@
       "manaCost": 125,
       "manaStart": 75,
       "stats": [
-        { "type": "Damage", "value": "150 / 200 / 250" },
-        { "type": "Stun Duration", "value": "2s / 2.5s / 3s" },
-        { "type": "Stun Delay", "value": "1" }
+        { "type": "Damage", "value": [150, 200, 250] },
+        { "type": "Stun Duration (s)", "value": [2, 2.5, 3] },
+        { "type": "Stun Delay (s)", "value": 1 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 60,
         "attackSpeed": 0.6,
-        "dps": 36,
         "range": 1
       },
       "defense": {
@@ -1178,17 +1151,16 @@
       "manaCost": 150,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "150 / 250 / 350" },
-        { "type": "Heal Amount", "value": "300 / 400 / 500" },
-        { "type": "Burrow Duration", "value": "1s" },
-        { "type": "Knockup Duration", "value": "1.75s" }
+        { "type": "Damage", "value": [150, 250, 350] },
+        { "type": "Heal Amount", "value": [300, 400, 500] },
+        { "type": "Burrow Duration (s)", "value": 1 },
+        { "type": "Knockup Duration (s)", "value": 1.75 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 40,
         "attackSpeed": 0.65,
-        "dps": 26,
         "range": 1
       },
       "defense": {
@@ -1212,17 +1184,16 @@
       "manaCost": 75,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage Multiplier", "value": "2.1 / 3.2 / 4.3" },
-        { "type": "Attack Speed", "value": "300 / 400 / 500" },
-        { "type": "Crit", "value": "0.25" },
-        { "type": "Buff Duration", "value": "6s" }
+        { "type": "Damage Multiplier", "value": [2.1, 3.2, 4.3] },
+        { "type": "Attack Speed", "value": [300, 400, 500] },
+        { "type": "Crit", "value": 0.25 },
+        { "type": "Buff Duration (s)", "value": 6 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 65,
         "attackSpeed": 0.55,
-        "dps": 30,
         "range": 1
       },
       "defense": {
@@ -1246,15 +1217,14 @@
       "manaCost": 150,
       "manaStart": 50,
       "stats": [
-        { "type": "Damage", "value": "100 / 175 / 250" },
-        { "type": "Stun Duration", "value": "2s / 3.5s / 5s" }
+        { "type": "Damage", "value": [100, 175, 250] },
+        { "type": "Stun Duration (s)", "value": [2, 3.5, 5] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 45,
         "attackSpeed": 0.55,
-        "dps": 25,
         "range": 1
       },
       "defense": {
@@ -1277,13 +1247,12 @@
       "type": "Active",
       "manaCost": 150,
       "manaStart": 100,
-      "stats": [{ "type": "Zone Duration", "value": "3s / 4s / 5s" }]
+      "stats": [{ "type": "Zone Duration (s)", "value": [3, 4, 5] }]
     },
     "stats": {
       "offense": {
         "damage": 65,
         "attackSpeed": 0.6,
-        "dps": 39,
         "range": 1
       },
       "defense": {
@@ -1307,15 +1276,14 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Bonus Attack Damage", "value": "100 / 150 / 200" },
-        { "type": "Burn Damage", "value": "200 / 300 / 400" }
+        { "type": "Bonus Attack Damage", "value": [100, 150, 200] },
+        { "type": "Burn Damage", "value": [200, 300, 400] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.7,
-        "dps": 33,
         "range": 4
       },
       "defense": {
@@ -1339,17 +1307,16 @@
       "manaCost": 100,
       "manaStart": 0,
       "stats": [
-        { "type": "Soulflare Damage", "value": "300 / 600 / 900" },
-        { "type": "Damage Per Tick", "value": "50 / 100 / 150" },
-        { "type": "Heal Per Tick", "value": "50 / 90 / 130" },
-        { "type": "Transform Duration", "value": "6s" }
+        { "type": "Soulflare Damage", "value": [300, 600, 900] },
+        { "type": "Damage Per Tick", "value": [50, 100, 150] },
+        { "type": "Heal Per Tick", "value": [50, 90, 130] },
+        { "type": "Transform Duration (s)", "value": 6 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 65,
         "attackSpeed": 0.65,
-        "dps": 42,
         "range": 2
       },
       "defense": {
@@ -1373,15 +1340,14 @@
       "manaCost": 50,
       "manaStart": 0,
       "stats": [
-        { "type": "Charge Damage", "value": "150 / 225 / 300" },
-        { "type": "Charge Duration", "value": "4s" }
+        { "type": "Charge Damage", "value": [150, 225, 300] },
+        { "type": "Charge Duration (s)", "value": 4 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.65,
-        "dps": 35,
         "range": 4
       },
       "defense": {
@@ -1405,16 +1371,15 @@
       "manaCost": 50,
       "manaStart": 0,
       "stats": [
-        { "type": "Red Card AoE Damage", "value": "100 / 150 / 200" },
-        { "type": "Yellow Card Stun Duration", "value": "2s / 3s / 4s" },
-        { "type": "Blue Card Mana Restore", "value": "20 / 35 / 50" }
+        { "type": "Red Card AoE Damage", "value": [100, 150, 200] },
+        { "type": "Yellow Card Stun Duration (s)", "value": [2, 3, 4] },
+        { "type": "Blue Card Mana Restore", "value": [20, 35, 50] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 40,
         "attackSpeed": 0.7,
-        "dps": 28,
         "range": 3
       },
       "defense": {
@@ -1438,15 +1403,14 @@
       "manaCost": 75,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "400 / 600 / 800" },
-        { "type": "Cast Time", "value": "1.5s" }
+        { "type": "Damage", "value": [400, 600, 800] },
+        { "type": "Cast Time (s)", "value": 1.5 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.7,
-        "dps": 35,
         "range": 4
       },
       "defense": {
@@ -1469,13 +1433,12 @@
       "type": "Passive",
       "manaCost": null,
       "manaStart": null,
-      "stats": [{ "type": "Max Health Damage", "value": "8% / 10% / 12%" }]
+      "stats": [{ "type": "Max Health Damage (%)", "value": [8, 10, 12] }]
     },
     "stats": {
       "offense": {
         "damage": 45,
         "attackSpeed": 0.65,
-        "dps": 27,
         "range": 3
       },
       "defense": {
@@ -1498,13 +1461,12 @@
       "type": "Active",
       "manaCost": 75,
       "manaStart": 0,
-      "stats": [{ "type": "Damage", "value": "300 / 500 / 700" }]
+      "stats": [{ "type": "Damage", "value": [300, 500, 700] }]
     },
     "stats": {
       "offense": {
         "damage": 45,
         "attackSpeed": 0.55,
-        "dps": 25,
         "range": 3
       },
       "defense": {
@@ -1528,15 +1490,14 @@
       "manaCost": 75,
       "manaStart": 0,
       "stats": [
-        { "type": "Chain Damage Multiplier", "value": "80% / 90% / 100%" },
-        { "type": "Bounces", "value": "3 / 4 / 5" }
+        { "type": "Chain Damage Multiplier (%)", "value": [80, 90, 100] },
+        { "type": "Bounces", "value": [3, 4, 5] }
       ]
     },
     "stats": {
       "offense": {
         "damage": 75,
         "attackSpeed": 0.55,
-        "dps": 38,
         "range": 1
       },
       "defense": {
@@ -1560,16 +1521,15 @@
       "manaCost": 150,
       "manaStart": 50,
       "stats": [
-        { "type": "Damage", "value": "150 / 225 / 300" },
-        { "type": "Hits", "value": "3" },
-        { "type": "Duration", "value": "1.5s" }
+        { "type": "Damage", "value": [150, 225, 300] },
+        { "type": "Hits", "value": 3 },
+        { "type": "Duration (s)", "value": 1.5 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 50,
         "attackSpeed": 0.6,
-        "dps": 30,
         "range": 1
       },
       "defense": {
@@ -1593,17 +1553,16 @@
       "manaCost": 25,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "150 / 350 / 550" },
-        { "type": "Range", "value": "2" },
-        { "type": "Empowered Range", "value": "4 hexes" },
-        { "type": "Knockup Duration", "value": "1.55s" }
+        { "type": "Damage", "value": [150, 350, 550] },
+        { "type": "Range", "value": 2 },
+        { "type": "Empowered Range (hexes)", "value": 4  },
+        { "type": "Knockup Duration (s)", "value": 1.55 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 65,
         "attackSpeed": 1,
-        "dps": 65,
         "range": 1
       },
       "defense": {
@@ -1627,15 +1586,14 @@
       "manaCost": 75,
       "manaStart": 0,
       "stats": [
-        { "type": "Damage", "value": "200 / 300 / 400" },
-        { "type": "Range", "value": "4" }
+        { "type": "Damage", "value": [200, 300, 400] },
+        { "type": "Range", "value": 4 }
       ]
     },
     "stats": {
       "offense": {
         "damage": 60,
         "attackSpeed": 0.65,
-        "dps": 39,
         "range": 1
       },
       "defense": {
