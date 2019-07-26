@@ -19,7 +19,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 65,
+        "attackDamage": 65,
         "attackSpeed": 0.65,
         "range": 1
       },
@@ -50,7 +50,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.55,
         "range": 3
       },
@@ -81,7 +81,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 70,
+        "attackDamage": 70,
         "attackSpeed": 0.7,
         "range": 1
       },
@@ -113,7 +113,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 40,
+        "attackDamage": 40,
         "attackSpeed": 0.6,
         "range": 3
       },
@@ -144,7 +144,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 60,
+        "attackDamage": 60,
         "attackSpeed": 0.7,
         "range": 4
       },
@@ -175,7 +175,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 40,
+        "attackDamage": 40,
         "attackSpeed": 0.6,
         "range": 3
       },
@@ -206,7 +206,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.5,
         "range": 1
       },
@@ -237,7 +237,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 60,
+        "attackDamage": 60,
         "attackSpeed": 0.6,
         "range": 3
       },
@@ -268,7 +268,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 40,
+        "attackDamage": 40,
         "attackSpeed": 0.6,
         "range": 1
       },
@@ -301,7 +301,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 70,
+        "attackDamage": 70,
         "attackSpeed": 0.55,
         "range": 1
       },
@@ -333,7 +333,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.5,
         "range": 1
       },
@@ -364,7 +364,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 75,
+        "attackDamage": 75,
         "attackSpeed": 0.75,
         "range": 3
       },
@@ -396,7 +396,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 40,
+        "attackDamage": 40,
         "attackSpeed": 0.6,
         "range": 2
       },
@@ -429,7 +429,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 60,
+        "attackDamage": 60,
         "attackSpeed": 0.6,
         "range": 1
       },
@@ -461,7 +461,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 40,
+        "attackDamage": 40,
         "attackSpeed": 1,
         "range": 1
       },
@@ -489,7 +489,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 55,
+        "attackDamage": 55,
         "attackSpeed": 0.65,
         "range": 1
       },
@@ -522,7 +522,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 55,
+        "attackDamage": 55,
         "attackSpeed": 0.55,
         "range": 1
       },
@@ -557,7 +557,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 45,
+        "attackDamage": 45,
         "attackSpeed": 0.7,
         "range": 2
       },
@@ -585,7 +585,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 55,
+        "attackDamage": 55,
         "attackSpeed": 0.5,
         "range": 1
       },
@@ -616,7 +616,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 65,
+        "attackDamage": 65,
         "attackSpeed": 0.65,
         "range": 3
       },
@@ -647,7 +647,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 45,
+        "attackDamage": 45,
         "attackSpeed": 0.65,
         "range": 1
       },
@@ -680,7 +680,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.6,
         "range": 1
       },
@@ -712,7 +712,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 60,
+        "attackDamage": 60,
         "attackSpeed": 1.1,
         "range": 3
       },
@@ -743,7 +743,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 65,
+        "attackDamage": 65,
         "attackSpeed": 0.65,
         "range": 2
       },
@@ -774,7 +774,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.6,
         "range": 1
       },
@@ -805,7 +805,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 55,
+        "attackDamage": 55,
         "attackSpeed": 0.65,
         "range": 3
       },
@@ -837,7 +837,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 45,
+        "attackDamage": 45,
         "attackSpeed": 0.55,
         "range": 1
       },
@@ -871,7 +871,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 40,
+        "attackDamage": 40,
         "attackSpeed": 0.6,
         "range": 3
       },
@@ -901,7 +901,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 65,
+        "attackDamage": 65,
         "attackSpeed": 0.65,
         "range": 3
       },
@@ -934,7 +934,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.6,
         "range": 2
       },
@@ -965,7 +965,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 75,
+        "attackDamage": 75,
         "attackSpeed": 0.85,
         "range": 3
       },
@@ -997,7 +997,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.5,
         "range": 1
       },
@@ -1029,7 +1029,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.6,
         "range": 2
       },
@@ -1061,7 +1061,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.65,
         "range": 3
       },
@@ -1094,7 +1094,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.5,
         "range": 1
       },
@@ -1126,7 +1126,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 60,
+        "attackDamage": 60,
         "attackSpeed": 0.6,
         "range": 1
       },
@@ -1159,7 +1159,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 40,
+        "attackDamage": 40,
         "attackSpeed": 0.65,
         "range": 1
       },
@@ -1192,7 +1192,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 65,
+        "attackDamage": 65,
         "attackSpeed": 0.55,
         "range": 1
       },
@@ -1223,7 +1223,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 45,
+        "attackDamage": 45,
         "attackSpeed": 0.55,
         "range": 1
       },
@@ -1251,7 +1251,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 65,
+        "attackDamage": 65,
         "attackSpeed": 0.6,
         "range": 1
       },
@@ -1282,7 +1282,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.7,
         "range": 4
       },
@@ -1315,7 +1315,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 65,
+        "attackDamage": 65,
         "attackSpeed": 0.65,
         "range": 2
       },
@@ -1346,7 +1346,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.65,
         "range": 4
       },
@@ -1378,7 +1378,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 40,
+        "attackDamage": 40,
         "attackSpeed": 0.7,
         "range": 3
       },
@@ -1409,7 +1409,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.7,
         "range": 4
       },
@@ -1437,7 +1437,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 45,
+        "attackDamage": 45,
         "attackSpeed": 0.65,
         "range": 3
       },
@@ -1465,7 +1465,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 45,
+        "attackDamage": 45,
         "attackSpeed": 0.55,
         "range": 3
       },
@@ -1496,7 +1496,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 75,
+        "attackDamage": 75,
         "attackSpeed": 0.55,
         "range": 1
       },
@@ -1528,7 +1528,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 50,
+        "attackDamage": 50,
         "attackSpeed": 0.6,
         "range": 1
       },
@@ -1561,7 +1561,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 65,
+        "attackDamage": 65,
         "attackSpeed": 1,
         "range": 1
       },
@@ -1592,7 +1592,7 @@
     },
     "stats": {
       "offense": {
-        "damage": 60,
+        "attackDamage": 60,
         "attackSpeed": 0.65,
         "range": 1
       },

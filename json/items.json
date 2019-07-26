@@ -10,7 +10,7 @@
       {
         "name": "attackDamage",
         "title": "Attack Damage",
-        "amount": "+20"
+        "amount": 20
       }
     ],
     "kind": "basic",
@@ -36,7 +36,7 @@
       {
         "name": "abilityPower",
         "title": "Spell Damage",
-        "amount": "+20%"
+        "amount": 20
       }
     ],
     "kind": "basic",
@@ -62,7 +62,7 @@
       {
         "name": "attackSpeed",
         "title": "Attack Speed",
-        "amount": "+20%"
+        "amount": 0.2
       }
     ],
     "kind": "basic",
@@ -86,9 +86,9 @@
     "depth": 1,
     "stats": [
       {
-        "name": "mana",
+        "name": "manaStart",
         "title": "Starting Mana",
-        "amount": "+20"
+        "amount": 20
       }
     ],
     "kind": "basic",
@@ -114,7 +114,7 @@
       {
         "name": "armor",
         "title": "Armor",
-        "amount": "+20"
+        "amount": 20
       }
     ],
     "kind": "basic",
@@ -140,7 +140,7 @@
       {
         "name": "magicResist",
         "title": "Magic Resist",
-        "amount": "+20"
+        "amount": 20
       }
     ],
     "kind": "basic",
@@ -166,7 +166,7 @@
       {
         "name": "health",
         "title": "Health",
-        "amount": "+200"
+        "amount": 200
       }
     ],
     "kind": "basic",
@@ -214,6 +214,13 @@
     "bonus": "Gain + team size.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": null,
+        "title": "It must do something...",
+        "amount": null
+      }
+    ],
     "buildsFrom": ["spatula", "spatula"],
     "kind": "advanced"
   },
@@ -224,6 +231,13 @@
     "bonus": "Wearer is also a Blademaster.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackSpeed",
+        "title": "Attack Speed",
+        "amount": 0.4
+      }
+    ],
     "buildsFrom": ["spatula", "recurvebow"],
     "kind": "advanced"
   },
@@ -234,6 +248,18 @@
     "bonus": "Attacks heal for 50% of damage.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackDamage",
+        "title": "Attack Damage",
+        "amount": 20
+      },
+      {
+        "name": "magicResist",
+        "title": "Magic Resist",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["bfsword", "negatroncloak"],
     "kind": "advanced"
   },
@@ -244,6 +270,18 @@
     "bonus": "Attacks have a low chance to Shrink (-1 enemy star, down to level 0).",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackSpeed",
+        "title": "Attack Speed",
+        "amount": 0.2
+      },
+      {
+        "name": "magicResist",
+        "title": "Magic Resist",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["negatroncloak", "recurvebow"],
     "kind": "advanced"
   },
@@ -254,6 +292,13 @@
     "bonus": "Wearer is also a Demon.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "manaStart",
+        "title": "Starting Mana",
+        "amount": 40
+      }
+    ],
     "buildsFrom": ["spatula", "tearofthegoddess"],
     "kind": "advanced"
   },
@@ -264,6 +309,13 @@
     "bonus": "83% resistance to magic damage.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "magicResist",
+        "title": "Magic Resist",
+        "amount": 40
+      }
+    ],
     "buildsFrom": ["negatroncloak", "negatroncloak"],
     "kind": "advanced"
   },
@@ -274,6 +326,18 @@
     "bonus": "Adjacent enemies lose 25% Attack Speed.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "armor",
+        "title": "Armor",
+        "amount": 20
+      },
+      {
+        "name": "manaStart",
+        "title": "Starting Mana",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["tearofthegoddess", "chainvest"],
     "kind": "advanced"
   },
@@ -284,6 +348,13 @@
     "bonus": "Wearer is also a Glacial.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "health",
+        "title": "Health",
+        "amount": 400
+      }
+    ],
     "buildsFrom": ["giantsbelt", "spatula"],
     "kind": "advanced"
   },
@@ -294,6 +365,18 @@
     "bonus": "Revives champ with 1000 HP after 2 seconds.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackDamage",
+        "title": "Attack Damage",
+        "amount": 20
+      },
+      {
+        "name": "armor",
+        "title": "Armor",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["bfsword", "chainvest"],
     "kind": "advanced"
   },
@@ -304,6 +387,18 @@
     "bonus": "Attacks give 4% Attack Speed. Stacks infinitely.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackSpeed",
+        "title": "Attack Speed",
+        "amount": 0.2
+      },
+      {
+        "name": "abilityPower",
+        "title": "Ability Power",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["needlesslylargerod", "recurvebow"],
     "kind": "advanced"
   },
@@ -314,6 +409,18 @@
     "bonus": "Heal for 33% of all damage dealt.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackDamage",
+        "title": "Attack Damage",
+        "amount": 20
+      },
+      {
+        "name": "abilityPower",
+        "title": "Ability Power",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["bfsword", "needlesslylargerod"],
     "kind": "advanced"
   },
@@ -324,6 +431,18 @@
     "bonus": "Attacks have a high chance to Silence.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "manaStart",
+        "title": "Starting Mana",
+        "amount": 20
+      },
+      {
+        "name": "magicResist",
+        "title": "Magic Resist",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["tearofthegoddess", "negatroncloak"],
     "kind": "advanced"
   },
@@ -334,6 +453,13 @@
     "bonus": "Critical Strikes deal +100% damage.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackDamage",
+        "title": "Attack Damage",
+        "amount": 40
+      }
+    ],
     "buildsFrom": ["bfsword", "bfsword"],
     "kind": "advanced"
   },
@@ -344,6 +470,18 @@
     "bonus": "Whenever an enemy casts a spell they take 200 true damage.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "abilityPower",
+        "title": "Ability Power",
+        "amount": 20
+      },
+      {
+        "name": "magicResist",
+        "title": "Magic Resist",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["negatroncloak", "needlesslylargerod"],
     "kind": "advanced"
   },
@@ -354,6 +492,13 @@
     "bonus": "Wearer is also a Knight.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "armor",
+        "title": "Armor",
+        "amount": 40
+      }
+    ],
     "buildsFrom": ["chainvest", "spatula"],
     "kind": "advanced"
   },
@@ -364,6 +509,18 @@
     "bonus": "On start of combat, allies 2 spaces to the left and right gain <strong style='color: white;'>200 shield.</span>",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "abilityPower",
+        "title": "Ability Power",
+        "amount": 20
+      },
+      {
+        "name": "armor",
+        "title": "Armor",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["needlesslylargerod", "chainvest"],
     "kind": "advanced"
   },
@@ -374,6 +531,18 @@
     "bonus": "Deal 200 splash damage on ability hit.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "abilityPower",
+        "title": "Ability Power",
+        "amount": 20
+      },
+      {
+        "name": "manaStart",
+        "title": "Starting Mana",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["needlesslylargerod", "tearofthegoddess"],
     "kind": "advanced"
   },
@@ -384,6 +553,18 @@
     "bonus": "Spells burn for 15% of max HP over 5s and disable healing.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "abilityPower",
+        "title": "Ability Power",
+        "amount": 20
+      },
+      {
+        "name": "health",
+        "title": "Health",
+        "amount": 200
+      }
+    ],
     "buildsFrom": ["needlesslylargerod", "giantsbelt"],
     "kind": "advanced"
   },
@@ -394,6 +575,18 @@
     "bonus": "Wearer dodges all Critical Strikes.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackSpeed",
+        "title": "Attack Speed",
+        "amount": 0.2
+      },
+      {
+        "name": "armor",
+        "title": "Armor",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["chainvest", "recurvebow"],
     "kind": "advanced"
   },
@@ -404,6 +597,13 @@
     "bonus": "Wearer's Ability Damage increased by 50%.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "abilityPower",
+        "title": "Ability Power",
+        "amount": 40
+      }
+    ],
     "buildsFrom": ["needlesslylargerod", "needlesslylargerod"],
     "kind": "advanced"
   },
@@ -414,6 +614,13 @@
     "bonus": "Attacks cannot be dodged. Attack Range is doubled.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackSpeed",
+        "title": "Attack Speed",
+        "amount": 0.40
+      }
+    ],
     "buildsFrom": ["recurvebow", "recurvebow"],
     "kind": "advanced"
   },
@@ -424,6 +631,18 @@
     "bonus": "Attacks burn for 13% of max HP over 5s and disable healing.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "armor",
+        "title": "Armor",
+        "amount": 20
+      },
+      {
+        "name": "health",
+        "title": "Health",
+        "amount": 200
+      }
+    ],
     "buildsFrom": ["chainvest", "giantsbelt"],
     "kind": "advanced"
   },
@@ -434,6 +653,18 @@
     "bonus": "At 25% health heal all nearby allies for 1000 HP.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "manaStart",
+        "title": "Starting Mana",
+        "amount": 20
+      },
+      {
+        "name": "health",
+        "title": "Health",
+        "amount": 200
+      }
+    ],
     "buildsFrom": ["tearofthegoddess", "giantsbelt"],
     "kind": "advanced"
   },
@@ -444,6 +675,13 @@
     "bonus": "Attacks hit 1 additional enemy. This extra hit does 25% damage and applies on-hit effects.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "magicResist",
+        "title": "Magic Resist",
+        "amount": 40
+      }
+    ],
     "buildsFrom": ["spatula", "negatroncloak"],
     "kind": "advanced"
   },
@@ -454,6 +692,13 @@
     "bonus": "Regain 20 mana each time a spell is cast",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "manaStart",
+        "title": "Starting Mana",
+        "amount": 40
+      }
+    ],
     "buildsFrom": ["tearofthegoddess", "tearofthegoddess"],
     "kind": "advanced"
   },
@@ -464,6 +709,18 @@
     "bonus": "After casting, gain 15% of max mana per attack.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackDamage",
+        "title": "Attack Damage",
+        "amount": 20
+      },
+      {
+        "name": "manaStart",
+        "title": "Starting Mana",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["bfsword", "tearofthegoddess"],
     "kind": "advanced"
   },
@@ -474,6 +731,18 @@
     "bonus": "Every 3rd attack deals 100 splash magical damage to 3 enemies.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackSpeed",
+        "title": "Attack Speed",
+        "amount": 0.2
+      },
+      {
+        "name": "manaStart",
+        "title": "Starting Mana",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["recurvebow", "tearofthegoddess"],
     "kind": "advanced"
   },
@@ -484,6 +753,18 @@
     "bonus": "Attacks have a chance to disarm.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "armor",
+        "title": "Armor",
+        "amount": 20
+      },
+      {
+        "name": "magicResist",
+        "title": "Magic Resist",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["chainvest", "negatroncloak"],
     "kind": "advanced"
   },
@@ -494,6 +775,18 @@
     "bonus": "Every 1s gain a 5% chance to gain 100% Critical Strike.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackDamage",
+        "title": "Attack Damage",
+        "amount": 20
+      },
+      {
+        "name": "attackSpeed",
+        "title": "Attack Speed",
+        "amount": 0.2
+      }
+    ],
     "buildsFrom": ["recurvebow", "bfsword"],
     "kind": "advanced"
   },
@@ -504,6 +797,13 @@
     "bonus": "Reflect 100% of of physical damage mitigated as True Damage.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "armor",
+        "title": "Armor",
+        "amount": 40
+      }
+    ],
     "buildsFrom": ["chainvest", "chainvest"],
     "kind": "advanced"
   },
@@ -514,6 +814,18 @@
     "bonus": "Attacks deal 10% of the wearer's max HP as splash.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackSpeed",
+        "title": "Attack Speed",
+        "amount": 0.2
+      },
+      {
+        "name": "health",
+        "title": "Health",
+        "amount": 200
+      }
+    ],
     "buildsFrom": ["giantsbelt", "recurvebow"],
     "kind": "advanced"
   },
@@ -524,6 +836,13 @@
     "bonus": "Regenerate 6% max <strong style='color: #20995D;'>Health</strong> per second.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "health",
+        "title": "Attack Damage",
+        "amount": 400
+      }
+    ],
     "buildsFrom": ["giantsbelt", "giantsbelt"],
     "kind": "advanced"
   },
@@ -534,6 +853,13 @@
     "bonus": "Wearer is also an Assassin.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackDamage",
+        "title": "Attack Damage",
+        "amount": 40
+      }
+    ],
     "buildsFrom": ["spatula", "bfsword"],
     "kind": "advanced"
   },
@@ -544,6 +870,13 @@
     "bonus": "Wearer is also a Sorcerer.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "abilityPower",
+        "title": "Ability Power",
+        "amount": 40
+      }
+    ],
     "buildsFrom": ["spatula", "needlesslylargerod"],
     "kind": "advanced"
   },
@@ -554,6 +887,18 @@
     "bonus": "On start of combat, allies 2 spaces to the left and right gain +15% Attack Speed.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "attackDamage",
+        "title": "Attack Damage",
+        "amount": 20
+      },
+      {
+        "name": "health",
+        "title": "Health",
+        "amount": 200
+      }
+    ],
     "buildsFrom": ["bfsword", "giantsbelt"],
     "kind": "advanced"
   },
@@ -564,6 +909,18 @@
     "bonus": "On start of combat banish an enemy.",
     "tier": 1,
     "depth": 2,
+    "stats": [
+      {
+        "name": "health",
+        "title": "Health",
+        "amount": 200
+      },
+      {
+        "name": "magicResist",
+        "title": "Magic Resist",
+        "amount": 20
+      }
+    ],
     "buildsFrom": ["negatroncloak", "giantsbelt"],
     "kind": "advanced"
   }
